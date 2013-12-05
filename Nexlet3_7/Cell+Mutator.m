@@ -13,6 +13,7 @@
 -(void) mutate:(int) mutatePercent{
     
     NSMutableArray *arrayOfIndexToMutate;
+
     arrayOfIndexToMutate = [self uniqueRandomNumberGenerator:mutatePercent];
     
     for (int i=0; i<mutatePercent;i++){
